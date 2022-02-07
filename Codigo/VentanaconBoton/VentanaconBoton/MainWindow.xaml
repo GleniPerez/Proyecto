@@ -1,0 +1,24 @@
+﻿<Window x:Class="VentanaconBoton.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VentanaconBoton"
+        mc:Ignorable="d"
+        Title="Ventana con Boton" Height="450" Width="400">
+    <StackPanel>
+        <Button x:Name="miBoton" Height="100" Width="200" FontFamily="Consolas"
+            FontSize="25" Background="Blue" Foreground="White" Click="miBoton_Click" >
+            Presioname
+        </Button>
+        <Button x:Name="miBoton2" Height="100" Width="200" FontFamily="Consolas"
+            FontSize="25" Background="Black" Foreground="White" 
+                Content="Presioname 2">
+        </Button>
+        <Button x:Name="miBoton3" Height="100" Width="200" FontFamily="Consolas"
+            FontSize="25" Background="Black" Foreground="White">
+            <Image Height="100" Margin="5" Source="/photo_2020-09-03_14-53-17.jpg"/>
+
+        </Button>
+    </StackPanel>
+</Window>
